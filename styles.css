@@ -89,11 +89,55 @@ width:auto;
   padding:5%;
  
 }
+
+
+
+
+
+h4:hover{
+  background: radial-gradient(30.92% 134.47% at 26.37% 16.4%, #f913c7 16.7%, #500076 91.47%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+h1:hover{
+
+  background: radial-gradient(30.92% 134.47% at 26.37% 16.4%, #F91313 16.7%, #500076 91.47%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-transition: background-clip 5000ms linear;
+  -ms-transition: background-clip 1000ms linear;
+  transition: background-clip 1000ms linear;
+}
+h3:hover{
+ 
+  background: radial-gradient(31.5% 137% at 35.79% 4.65%, #F9C613 16.7%, #15ce24 91.47%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+h2:hover{
+ 
+  background: linear-gradient(90deg, #13F9C1 12.3%, #156EF2 52.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.text a{
+ color: white;
+}
 h1{
   border: black ;
 }
 .text a{
-  color:blue;
+  color:white;
   text-decoration: none;
 }
 @media only screen and (max-width: 775px) {
